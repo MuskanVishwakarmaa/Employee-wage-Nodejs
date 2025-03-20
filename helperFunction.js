@@ -100,3 +100,5 @@ function totalDaysWorked(numOfDays, dailyWage) {
 }
 console.log("UC7G - Number of Days Emp Worked: " +
     empDailyWageArr.reduce(totalDaysWorked, 0));
+console.log("UC7 - Daily Wage Array: " + empDailyWageArr);
+console.log("UC7 - Daily Wage With Total Wage Array: " + empDailyWageWithTotalArr);
